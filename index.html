@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GCF Batangas - Home</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -31,10 +32,11 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="container">
+    <div class="container text-center">
       <h1 class="display-4 mb-4">Growing in Christ Together</h1>
+      <p class="lead mb-5">Join our community in Batangas City</p>
       <div class="livestream-container">
-        <iframe src="YOUR_LIVESTREAM_EMBED" 
+        <iframe src="YOUR_FACEBOOK_LIVESTREAM_EMBED" 
                 style="width:100%; height:500px; border:none;"></iframe>
       </div>
     </div>
@@ -42,19 +44,54 @@
 
   <!-- Main Content -->
   <main class="container my-5">
-    <section class="upcoming-events">
+    <section class="upcoming-events mb-5">
       <h2 class="section-title text-center">Upcoming Events</h2>
-      <!-- Event cards -->
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5>Sunday Worship</h5>
+              <p class="text-muted">Every Sunday at 9:00 AM</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more events -->
+      </div>
     </section>
   </main>
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="container text-center">
-      <!-- Footer content -->
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <p>123 Main Street<br>Batangas City, Philippines</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <div class="social-links">
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="give.html" class="text-white">Online Giving</a></li>
+            <li><a href="connect.html" class="text-white">Membership</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p>&copy; 2023 GCF Batangas. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
